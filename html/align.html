@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <script type="text/javascript" src="../js/flex.js"></script>
+
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Introduçao ao alinhamento  de objectos com Flexbox</title>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="direction.html">flex direction</a></li>
+                <li><a href="wrap.html">flex Wrap</a></li>
+                <li><a href="justify.html">justify content</a></li>
+                <li><a href="#">Aling Items</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+<main>
+    <div id="container" style="height: 300px;">
+
+        <div class="square" style="font-size: 10pt;">1</div>
+        <div class="square" style="font-size: 40pt;">2</div>
+        <div class="square" style="font-size: 60pt;">3</div>
+        <div class="square" style="font-size: 10pt;">4</div>
+        <div class="square" style="font-size: 50pt;">5</div>
+
+    </div>
+
+    <div id="comandos">
+        
+        <button onclick="fo('flex-start');">align-items:flex-start</button>
+        <button onclick="fo('flex-end');">align-items:flex-end</button>
+        <button onclick="fo('center');">align-items:center</button>
+        <button onclick="fo('baseline');">align-items:baseline</button>
+        <button onclick="fo('stretch');">align-items:stretch</button>
+        
+    </div>
+
+</main>
+<footer></footer>
+
+</body>
+</html>
