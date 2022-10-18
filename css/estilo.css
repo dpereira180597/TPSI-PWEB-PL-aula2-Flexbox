@@ -1,5 +1,5 @@
 #container{
-    display: flex;
+    display: flex;/* serve para colocar numeros lado a lado em vez de em lista, e ajusta ao texto*/
 }
 
 .square{
@@ -7,15 +7,15 @@
     min-height: 100px;
     max-height: 300px;
     background-color: orange;
-    color: white;
-    display: flex;
+    color: white; /* cor das letras*/
+    display: flex; /* ajusta a caixa */
     justify-content: center;
-    align-items: center;
-    margin: 10px;
-    font-size: 25pt;
+    align-items: center;/* Alinha ao centro*/
+    margin: 10px; /* espaçamento das div*/
+    font-size: 25pt;/* tamanho das letras*/
 }
 
 #comandos{
     display: flex;
-    justify-content: space-evenly;
+     justify-content: space-evenly;/*serve para separar irmamente*/
 }

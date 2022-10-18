@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
 
 
-    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
-    <script type="text/javascript" src="../js/flex.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css"> <!-- faz a ligaçao do do HTML á pasta do CSS -->
+    <script type="text/javascript" src="../js/flex.js"></script><!-- faz a ligaçao do do HTML á pasta do JAVAscript -->
 
 
 
@@ -16,24 +16,24 @@
     <title>Introduçao ao alinhamento  de objectos com Flexbox</title>
     
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
+  <body>
+    <header> <!-- cabeçalho -->
+        <nav> 
+            <ul> <!-- lista nao numerada -->
                 <li><a href="../index.html">home</a></li>
                 <li><a href="direction.html">flex direction</a></li>
                 <li><a href="wrap.html">flex Wrap</a></li>
                 <li><a href="justify.html">justify content</a></li>
-                <li><a href="#">Aling Items</a></li>
+                <li><a href="#">Aling Items</a></li> <!-- '#' nao redireciona para lugar nenhum, apenas para a propria pagiina -->
             </ul>
         </nav>
     </header>
 
     
-<main>
-    <div id="container" style="height: 300px;">
+ <main>
+    <div id="container" style="height: 300px;"> <!-- div que contem a numeraçao adicionamos um tamanho na caixa  -->
 
-        <div class="square" style="font-size: 10pt;">1</div>
+        <div class="square" style="font-size: 10pt;">1</div> <!-- DIV onde adicionamos no proprio html o tamalho das letras e ima class para no css defenir o formato -->
         <div class="square" style="font-size: 40pt;">2</div>
         <div class="square" style="font-size: 60pt;">3</div>
         <div class="square" style="font-size: 10pt;">4</div>
@@ -43,7 +43,7 @@
 
     <div id="comandos">
         
-        <button onclick="fo('flex-start');">align-items:flex-start</button>
+        <button onclick="fo('flex-start');">align-items:flex-start</button> <!-- botao que executa uma açao em Javascript com click -->
         <button onclick="fo('flex-end');">align-items:flex-end</button>
         <button onclick="fo('center');">align-items:center</button>
         <button onclick="fo('baseline');">align-items:baseline</button>
@@ -51,8 +51,11 @@
         
     </div>
 
-</main>
-<footer></footer>
+ </main>
+
+ <footer>
+
+ </footer>
 
 </body>
 </html>
